@@ -1,3 +1,25 @@
+
+# Paddle.js-Ext dev fork
+
+> 🙋Maintained by friends of Emerge
+
+
+Changes:
+
+### Better dev experience 
+
+- Progressively fix & upgrade `examples` - from either UX  / technical perspective
+
+- Misc fixes - `.gitignore` & so on.
+
+### Model conversion & Demos
+
+- (Planned) Add support for tf.js -> paddle.js model conversion tools & documentations
+
+---
+
+# Original Paddle.js Readme
+
 [中文版](./README_cn.md)
 
 # Paddle.js
