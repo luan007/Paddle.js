@@ -1,6 +1,6 @@
-// import 'babel-polyfill';
-// import Paddlejs from '../../src/executor/runner';
-import {runner as Paddlejs} from 'paddlejs';
+import 'babel-polyfill';
+import Paddlejs from '../../src/executor/runner';
+// import {runner as Paddlejs} from 'paddlejs';
 import Camera from '../../src/executor/camera';
 import DetectProcess from './DetectProcess';
 import LMProcess from './LMProcess';
