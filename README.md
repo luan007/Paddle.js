@@ -16,6 +16,10 @@ Changes:
 
 - (Planned) Add support for tf.js -> paddle.js model conversion tools & documentations
 
+### More Models!
+
+- (Planned) Add more converted models from various communities. 
+
 ---
 
 # Original Paddle.js Readme
