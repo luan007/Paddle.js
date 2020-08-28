@@ -46,7 +46,7 @@ git checkout develop
 python setup.py install
 ```
 
-* run X2Paddle / maybe need input shape [Github](https://github.com/PaddlePaddle/X2Paddle/blob/develop/tools/README.md)
+* run X2Paddle / may need to supply input shape during process [Github](https://github.com/PaddlePaddle/X2Paddle/blob/develop/tools/README.md)
 ```shell
 X2Paddle -f tensorflow -m ./out.pb  -s ./out_model --without_data_format_optimization=False
 python tools/merge_params.py ./out_model/inference_model ./out_model/new_model_dir
