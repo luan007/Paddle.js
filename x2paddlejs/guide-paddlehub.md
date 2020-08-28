@@ -15,11 +15,9 @@ open .
 cp -R ~/.paddlehub/modules/human_pose_estimation_resnet50_mpii/pose-resnet50-mpii-384x384 ./{target}
 ```
 
-## convert out_model to paddle model
+## convert out_model to paddlejs model
 
 ```
 cd Paddle.js/tools/ModelConverter
 python3 convertToPaddleJSModel.py --inputDir="./out_model/new_model_dir" --outputDir="./model-out"
 ```
-
-* move `model-out` -> `dist/model/model-out`
